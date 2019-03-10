@@ -43,7 +43,6 @@ var config = {
 	server: {
 			baseDir: "./build"
 	},
-	tunnel: true,
 	host: 'localhost',
 	port: 9000,
 	browser: ['chrome']
