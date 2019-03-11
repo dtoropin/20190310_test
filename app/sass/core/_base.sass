@@ -4,7 +4,7 @@ html, body
 body
 	overflow-y: scroll
 	font-family: $basefont
-	font-size: 15px
+	font-size: 14px
 	color: $text_color
 	background: $bg_color
 	margin: 0
@@ -19,3 +19,33 @@ img
 	width: 100%
 	height: auto
 	outline: none
+
+.header
+	background-color: #8cc34b
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2)
+	color: #ffffff
+	padding: 14px 30px 16px
+	+clearfix
+
+
+.wrapper
+	min-height: 100%
+	padding-bottom: 72px
+	box-sizing: border-box
+
+.wrapper,
+.footer
+	width: $site_width
+	margin: 0 auto
+
+.footer
+	margin-top: -72px
+	height: 72px
+	padding: 19px 0 16px
+	background-color: #212121
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2)
+	&__text
+		width: 515px
+		text-align: center
+		color: rgba(255,255,255,.5)
+		margin: 0 auto
