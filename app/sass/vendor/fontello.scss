@@ -33,6 +33,8 @@
 	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
+.icon-clock:before { content: '\e800'; } /* '' */
+.icon-ok:before { content: '\e801'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-skype:before { content: '\f17e'; } /* '' */
 .icon-vkontakte:before { content: '\f189'; } /* '' */
