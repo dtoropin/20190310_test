@@ -1,4 +1,4 @@
-var myModule = (function () {
+(function () {
 
 	var init = function () {
 		console.log('It is myModule other!');
@@ -10,10 +10,5 @@ var myModule = (function () {
 	};
 
 
-	return {
-		init: init
-	}
-
+	return init();
 })();
-
-myModule.init();

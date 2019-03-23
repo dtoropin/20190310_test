@@ -26,12 +26,32 @@ img
 	color: #ffffff
 	padding: 14px 30px 16px
 	+clearfix
-
+	margin-bottom: 75px
 
 .wrapper
 	min-height: 100%
 	padding-bottom: 72px
 	box-sizing: border-box
+
+.about
+	margin-bottom: 75px
+	&__block
+		width: $content_width
+		margin: 0 auto
+		box-sizing: border-box
+	&__head
+		color: #212121
+		font-size: 42px
+		font-weight: 500
+		margin: 0 0 20px
+		text-align: center
+	&__annotation
+		font-size: 21px
+		font-weight: 300
+		margin: 0 0 45px
+		text-align: center
+	&__item
+		+clearfix
 
 .wrapper,
 .footer
@@ -44,6 +64,7 @@ img
 	padding: 19px 0 16px
 	background-color: #212121
 	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2)
+	box-sizing: border-box
 	&__text
 		width: 515px
 		text-align: center
